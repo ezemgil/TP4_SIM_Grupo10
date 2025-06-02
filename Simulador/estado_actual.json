@@ -1,0 +1,8660 @@
+[
+  {
+    "hora": 0.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 4.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 1,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "libre",
+      "tramite": null
+    }
+  },
+  {
+    "hora": 1.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 4.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 1,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "libre",
+      "tramite": null
+    }
+  },
+  {
+    "hora": 2.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 4.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 1,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "libre",
+      "tramite": null
+    }
+  },
+  {
+    "hora": 3.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 4.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 1,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "libre",
+      "tramite": null
+    }
+  },
+  {
+    "hora": 4.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 8.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 2,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 5.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 8.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 2,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 6.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 8.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 2,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 7.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 8.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 2,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 8.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 12.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 3,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 9.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 12.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 3,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 10.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 12.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 3,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 11.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 12.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 3,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 12.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 16.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 4,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 13.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 16.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 4,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 14.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 16.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 4,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 15.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 16.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 4,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 16.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 20.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 5,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 17.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 20.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 5,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 18.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 20.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 5,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 19.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 20.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 5,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 20.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 24.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 6,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 21.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 24.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 6,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 22.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 24.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 6,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 23.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 24.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 6,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 24.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 28.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 7,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 25.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 28.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 7,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 26.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 28.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 7,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 27.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 28.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 7,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 28.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 32.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 8,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 29.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 32.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 8,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 30.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 32.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 8,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 31.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 32.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 8,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 32.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 36.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 9,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 33.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 36.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 9,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 34.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 36.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 9,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 35.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 36.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 9,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 36.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 40.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 10,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 37.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 40.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 10,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 38.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 40.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 10,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 39.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 40.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 10,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 40.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 44.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 11,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 41.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 44.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 11,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 42.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 44.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 11,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 43.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 44.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 11,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 44.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 48.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 12,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 45.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 48.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 12,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 46.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 48.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 12,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 47.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 48.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 12,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 48.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 52.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 13,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 49.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 52.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 13,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 50.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 52.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 13,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 51.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 52.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 13,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 52.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 56.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 14,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 53.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 56.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 14,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 54.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 56.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 14,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 55.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 56.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 14,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 56.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 60.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 15,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 57.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 60.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 15,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 58.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 60.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 15,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 59.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 60.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 15,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 60.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 64.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 16,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 61.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 64.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 16,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 62.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 64.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 16,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 63.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 64.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 16,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 64.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 68.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 17,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 65.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 68.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 17,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 66.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 68.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 17,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 67.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 68.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 17,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 68.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 72.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 18,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 69.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 72.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 18,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 70.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 72.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 18,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 71.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 72.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 18,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 72.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 76.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 19,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 73.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 76.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 19,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 74.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 76.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 19,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 75.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 76.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 19,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 76.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 80.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 77.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 80.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 78.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 80.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 79.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 80.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 80.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 84.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 81.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 84.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 82.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 84.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 83.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 84.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 84.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 88.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 85.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 88.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 86.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 88.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 87.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 88.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 88.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 92.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 89.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 92.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 90.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 92.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 91.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 92.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 92.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 96.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 93.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 96.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 94.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 96.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 95.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 96.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 96.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 100.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 97.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 100.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 98.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 100.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 99.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 100.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 100.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 104.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 101.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 104.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 102.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 104.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 103.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 104.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 104.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 108.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 105.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 108.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 106.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 108.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 107.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 108.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 108.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 112.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 109.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 112.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 110.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 112.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 111.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 112.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 112.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 116.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 113.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 116.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 114.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 116.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 115.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 116.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 116.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 120.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 117.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 120.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 118.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 120.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 119.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 120.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 120.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 124.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 121.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 124.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 122.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 124.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 123.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 124.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 124.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 128.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 125.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 128.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 126.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 128.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 127.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 128.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 128.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 132.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 129.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 132.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 130.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 132.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 131.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 132.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 132.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 136.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 133.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 136.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 134.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 136.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 135.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 136.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 136.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 140.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 137.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 140.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 138.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 140.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 139.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 140.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 140.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 144.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 141.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 144.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 142.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 144.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 143.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 144.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 144.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 148.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 145.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 148.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 146.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 148.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 147.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 148.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 148.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 152.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 149.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 152.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 150.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 152.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 151.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 152.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 152.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 156.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 153.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 156.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 154.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 156.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 155.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 156.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 156.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 160.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 157.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 160.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 158.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 160.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 159.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 160.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 160.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 164.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 161.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 164.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 162.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 164.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 163.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 164.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 164.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 168.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 165.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 168.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 166.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 168.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 167.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 168.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 168.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 172.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 169.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 172.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 170.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 172.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 171.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 172.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 172.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 176.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 173.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 176.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 174.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 176.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 175.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 176.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 176.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 180.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 177.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 180.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 178.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 180.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 179.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 180.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 180.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 184.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 181.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 184.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 182.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 184.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 183.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 184.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 184.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 188.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 185.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 188.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 186.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 188.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 187.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 188.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 188.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 192.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 189.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 192.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 190.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 192.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 191.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 192.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 192.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 196.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 193.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 196.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 194.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 196.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 195.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 196.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 196.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 200.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 197.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 200.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 198.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 200.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 199.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 200.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 200.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 204.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 201.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 204.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 202.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 204.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 203.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 204.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 204.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 208.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 205.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 208.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 206.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 208.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 207.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 208.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 208.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 212.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 209.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 212.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 210.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 212.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 211.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 212.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 212.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 216.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 213.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 216.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 214.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 216.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 215.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 216.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 216.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 220.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 217.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 220.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 218.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 220.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 219.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 220.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 220.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 224.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 221.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 224.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 222.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 224.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 223.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 224.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 224.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 228.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 225.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 228.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 226.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 228.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 227.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 228.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 228.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 232.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 229.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 232.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 230.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 232.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 231.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 232.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 232.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 236.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 233.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 236.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 234.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 236.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 235.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 236.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 236.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 240.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 237.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 240.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 238.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 240.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 239.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 240.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 240.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 244.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 241.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 244.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 242.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 244.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 243.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 244.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 244.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 248.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 245.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 248.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 246.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 248.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 247.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 248.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 248.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 252.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 249.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 252.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 250.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 252.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 251.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 252.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 252.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 256.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 253.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 256.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 254.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 256.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 255.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 256.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 256.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 260.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 257.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 260.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 258.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 260.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 259.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 260.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 260.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 264.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 261.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 264.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 262.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 264.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 263.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 264.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 264.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 268.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 265.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 268.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 266.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 268.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 267.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 268.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 268.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 272.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 269.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 272.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 270.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 272.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 271.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 272.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 272.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 276.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 273.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 276.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 274.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 276.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 275.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 276.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 276.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 280.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 277.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 280.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 278.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 280.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 279.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 280.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 280.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 284.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 281.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 284.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 282.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 284.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 283.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 284.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 284.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 288.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 285.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 288.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 286.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 288.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 287.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 288.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 288.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 292.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 289.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 292.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 290.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 292.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 291.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 292.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 292.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 296.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 293.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 296.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 294.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 296.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 295.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 296.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 296.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 300.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 297.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 300.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 298.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 300.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 299.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 300.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 300.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 304.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 301.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 304.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 302.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 304.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 303.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 304.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 304.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 308.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 305.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 308.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 306.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 308.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 307.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 308.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 308.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 312.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 309.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 312.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 310.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 312.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 311.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 312.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 312.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 316.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 313.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 316.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 314.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 316.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 315.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 316.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 316.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 320.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 317.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 320.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 318.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 320.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 319.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 320.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 320.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 324.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 321.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 324.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 322.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 324.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 323.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 324.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 324.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 328.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 325.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 328.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 326.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 328.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 327.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 328.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 328.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 332.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 329.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 332.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 330.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 332.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 331.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 332.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 332.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 336.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 333.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 336.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 334.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 336.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 335.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 336.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 336.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 340.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 337.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 340.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 338.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 340.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 339.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 340.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 340.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 344.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 341.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 344.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 342.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 344.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 343.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 344.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 344.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 348.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 345.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 348.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 346.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 348.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 347.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 348.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 348.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 352.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 349.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 352.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 350.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 352.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 351.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 352.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 352.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 356.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 353.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 356.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 354.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 356.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 355.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 356.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 356.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 360.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 357.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 360.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 358.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 360.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 359.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 360.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 360.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 364.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 361.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 364.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 362.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 364.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 363.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 364.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 364.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 368.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 365.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 368.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 366.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 368.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 367.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 368.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 368.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 372.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 369.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 372.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 370.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 372.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 371.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 372.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 372.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 376.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 373.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 376.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 374.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 376.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 375.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 376.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 376.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 380.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 377.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 380.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 378.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 380.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 379.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 380.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 380.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 384.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 381.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 384.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 382.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 384.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 383.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 384.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 384.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 388.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 385.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 388.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 386.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 388.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 387.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 388.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 388.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 392.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 389.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 392.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 390.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 392.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 391.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 392.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 392.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 396.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 393.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 396.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 394.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 396.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 395.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 396.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 396.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 400.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 397.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 400.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 398.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 400.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 399.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 400.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 400.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 404.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 401.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 404.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 402.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 404.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 403.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 404.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 404.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 408.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 405.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 408.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 406.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 408.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 407.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 408.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 408.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 412.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 409.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 412.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 410.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 412.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 411.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 412.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 412.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 416.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 413.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 416.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 414.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 416.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 415.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 416.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 416.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 420.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 417.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 420.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 418.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 420.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 419.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 420.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 420.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 424.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 421.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 424.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 422.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 424.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 423.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 424.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 424.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 428.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 425.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 428.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 426.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 428.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 427.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 428.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 428.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 432.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 429.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 432.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 430.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 432.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 431.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 432.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 432.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 436.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 433.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 436.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 434.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 436.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 435.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 436.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 436.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 440.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 437.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 440.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 438.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 440.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 439.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 440.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 440.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 444.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 441.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 444.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 442.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 444.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 443.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 444.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 444.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 448.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 445.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 448.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 446.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 448.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 447.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 448.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 448.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 452.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 449.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 452.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 450.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 452.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 451.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 452.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 452.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 456.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 453.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 456.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 454.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 456.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 455.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 456.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 456.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 460.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 457.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 460.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 458.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 460.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 459.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 460.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 460.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 464.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 461.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 464.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 462.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 464.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 463.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 464.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 464.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 468.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 465.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 468.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 466.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 468.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 467.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 468.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 468.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 472.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 469.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 472.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 470.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 472.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 471.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 472.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 472.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 476.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 473.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 476.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 474.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 476.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 475.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 476.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 476.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 480.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 477.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 480.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 478.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 480.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 479.0,
+    "evento": "Espera",
+    "proximo_evento": {
+      "llegada": 480.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  },
+  {
+    "hora": 480.0,
+    "evento": "Llegada",
+    "proximo_evento": {
+      "llegada": 484.0,
+      "fin_atencion_1": null,
+      "fin_atencion_2": null
+    },
+    "personas_dentro": 20,
+    "empleado_1": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    },
+    "empleado_2": {
+      "estado": "ocupado",
+      "tramite": "consulta"
+    }
+  }
+]
