@@ -1,6 +1,6 @@
 # modelos.py
 from pydantic import BaseModel
-from typing import Optional, List, Dict
+from typing import Optional, Dict, Any, List
 
 class ParametrosSimulacion(BaseModel):
     tiempo_maximo: int = 480
@@ -11,10 +11,18 @@ class ParametrosSimulacion(BaseModel):
 class FilaEstado(BaseModel):
     hora: float
     evento: str
-    proximo_evento: Dict[str, Optional[float]]
+    rnd_tipo_tramite: Optional[float]
+    tipo_tramite: Optional[str]
+    tiempo_atencion: Optional[float]
+    fin_atencion_1: Optional[float]
+    fin_atencion_2: Optional[float]
+    estado_empleado_1: str
+    estado_empleado_2: str
+    tramite_empleado_1: Optional[str]
+    tramite_empleado_2: Optional[str]
+    cola_espera: int
     personas_dentro: int
-    empleado_1: Dict[str, Optional[str]]
-    empleado_2: Dict[str, Optional[str]]
+    variables_auxiliares: Dict[str, Any]
 
 class ResultadoSimulacion(BaseModel):
     mensaje: str

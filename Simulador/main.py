@@ -3,10 +3,19 @@ from fastapi import FastAPI, Query
 from modelos import ParametrosSimulacion, ResultadoSimulacion, FilaEstado
 from simulador import simular
 from typing import List
+from fastapi.middleware.cors import CORSMiddleware
 
 import json
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # origen del frontend Vite
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def home():
