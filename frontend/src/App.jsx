@@ -1,19 +1,32 @@
 import { useState } from "react";
 import SimuladorForm from "./components/SimuladorForm";
-import ResultadoTabla from "./components/ResultadoTabla";
+import VectorDeEstado from "./components/VectorDeEstado";
+import { ejecutarSimulacion } from "./services/simulacionService";
 
-export default function App() {
+function App() {
   const [resultado, setResultado] = useState(null);
 
+  const manejarSimulacion = async (params) => {
+    try {
+      const res = await ejecutarSimulacion(params);
+      setResultado(res);
+    } catch (err) {
+      alert("Error: " + err.message);
+    }
+  };
+
   return (
-    <div className="max-w-7xl mx-auto px-4 py-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">
-        Simulador Centro de Documentación
-      </h1>
-
-      <SimuladorForm onResultado={setResultado} />
-
-      {resultado && <ResultadoTabla data={resultado} />}
+    <div>
+      <h1>Simulador - Centro de Documentación</h1>
+      <SimuladorForm onSimular={manejarSimulacion} />
+      {resultado && (
+        <VectorDeEstado
+          vector={resultado.vector_estado}
+          estadisticas={resultado.estadisticas}
+        />
+      )}
     </div>
   );
 }
+
+export default App;

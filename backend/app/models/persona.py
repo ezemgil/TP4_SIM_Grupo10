@@ -18,16 +18,17 @@ class Persona:
     def __init__(self, id, hora_llegada, config):
         self.id = id
         self.hora_llegada = hora_llegada
-        self.tramite = self.definir_tramite(config)
         self.estado = EstadoPersona.EN_COLA
-        self.hora_inicio_atencion = None
-        self.hora_fin_atencion = None
-
-    def definir_tramite(self, config):
-        r = random.random()
-        if r < config.prob_solicitud / 100:
-            return TipoTramite.SOLICITUD
-        elif r < (config.prob_solicitud + config.prob_entrega) / 100:
-            return TipoTramite.ENTREGA
+        self.rnd_tramite = random.random()
+        if self.rnd_tramite < config.prob_solicitud / 100:
+            self.tramite = TipoTramite.SOLICITUD
+        elif self.rnd_tramite < (config.prob_solicitud + config.prob_entrega) / 100:
+            self.tramite = TipoTramite.ENTREGA
         else:
-            return TipoTramite.CONSULTA
+            self.tramite = TipoTramite.CONSULTA
+
+        # Resto de atributos...
+        self.reinsercion = None
+        self.centro_cerrado = None
+        self.hora_salida = None
+        self.tiempo_permanencia = 0

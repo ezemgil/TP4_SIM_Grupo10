@@ -1,58 +1,51 @@
 import { useState } from "react";
-import axios from "axios";
 
-export default function SimuladorForm({ onResultado }) {
-  const [form, setForm] = useState({
-    tiempo_simulacion: 1000,
-    cantidad_iteraciones: 50,
-    mostrar_desde: 1,
-    mostrar_cantidad: 20,
-    tiempo_entre_llegadas: 3,
+export default function SimuladorForm({ onSimular }) {
+  const [params, setParams] = useState({
+    tiempo_simulacion: 100,
+    cantidad_iteraciones: 1000,
+    mostrar_desde: 0,
+    mostrar_cantidad: 10,
+    tiempo_entre_llegadas: 4,
     prob_solicitud: 45,
     prob_entrega: 45,
     prob_consulta: 10,
-    consulta_min: 4,
-    consulta_max: 6,
-    entrega_media: 5,
-    entrega_rango: 1.5,
-    solicitud_media: 10,
-    actividad_media: 8,
-    prob_se_va_tras_solicitud: 30,
-    capacidad_maxima: 100,
+    consulta_min: 2,
+    consulta_max: 5,
+    entrega_media: 2,
+    entrega_rango: 0.5,
+    solicitud_media: 6,
+    actividad_media: 30,
+    prob_se_va_tras_solicitud: 60,
+    capacidad_maxima: 20
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setForm({ ...form, [name]: parseFloat(value) });
+    setParams({ ...params, [name]: parseFloat(value) });
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    const response = await axios.post("http://localhost:8000/simulacion/ejecutar", form);
-    onResultado(response.data);
+    onSimular(params);
   };
 
   return (
-    <form onSubmit={handleSubmit} className="grid grid-cols-2 gap-4 p-4">
-      {Object.entries(form).map(([key, value]) => (
+    <form onSubmit={handleSubmit}>
+      <h2>Parámetros de Simulación</h2>
+      {Object.keys(params).map((key) => (
         <div key={key}>
-          <label className="block text-sm font-medium">{key}</label>
+          <label>{key.replaceAll("_", " ")}:</label>
           <input
             type="number"
-            step="any"
+            step="0.1"
             name={key}
-            value={value}
+            value={params[key]}
             onChange={handleChange}
-            className="mt-1 block w-full border border-gray-300 rounded-md p-1"
           />
         </div>
       ))}
-      <button
-        type="submit"
-        className="col-span-2 bg-blue-600 text-white p-2 rounded mt-2"
-      >
-        Ejecutar Simulación
-      </button>
+      <button type="submit">Simular</button>
     </form>
   );
 }
