@@ -7,7 +7,6 @@ router = APIRouter()
 class ParametrosSimulacion(BaseModel):
     # Parámetros de ejecución
     tiempo_simulacion: int
-    cantidad_iteraciones: int
     mostrar_desde: int
     mostrar_cantidad: int
 

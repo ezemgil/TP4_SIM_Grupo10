@@ -2,7 +2,6 @@ from pydantic import BaseModel
 
 class ParametrosSimulacion(BaseModel):
     tiempo_simulacion: int
-    cantidad_iteraciones: int
     mostrar_desde: int
     mostrar_cantidad: int
 

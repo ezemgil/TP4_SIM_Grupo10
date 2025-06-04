@@ -1,5 +1,6 @@
 import heapq
 import random
+import math
 from app.models.evento import Evento, TipoEvento
 from app.models.persona import Persona, TipoTramite, EstadoPersona
 from app.models.empleado import Empleado
@@ -8,15 +9,13 @@ class Simulador:
     def __init__(self, config):
         self.config = config
         self.tiempo_max = config.tiempo_simulacion
-        self.iteraciones_max = config.cantidad_iteraciones
         self.mostrar_desde = config.mostrar_desde
         self.mostrar_cantidad = config.mostrar_cantidad
-
+        
         self.eventos_futuros = []
         self.reloj = 0
         self.iteracion = 0
         self.vector_estado = []
-
         self.cola = []
         self.personas = {}
         self.empleados = [Empleado(1), Empleado(2)]
@@ -26,6 +25,7 @@ class Simulador:
         self.contador_personas_que_ingresaron = 0
         self.contador_rechazados_por_capacidad = 0
 
+        # Para guardar últimos valores
         self.ultima_llegada_valor = None
         self.ultima_proxima_llegada = None
         self.ultima_rnd_tramite = None
@@ -43,7 +43,7 @@ class Simulador:
         heapq.heappush(self.eventos_futuros, evento)
 
     def simular(self):
-        while self.eventos_futuros and self.reloj < self.tiempo_max and self.iteracion < self.iteraciones_max:
+        while self.eventos_futuros and self.reloj < self.tiempo_max:
             evento = heapq.heappop(self.eventos_futuros)
             self.reloj = evento.tiempo
             self.procesar_evento(evento)
@@ -153,14 +153,13 @@ class Simulador:
 
     def obtener_duracion(self, persona):
         if persona.tramite == TipoTramite.CONSULTA:
-            return random.uniform(self.config.consulta_min, self.config.consulta_max)
+            return -6 * math.log(1 - random.random())
         elif persona.tramite == TipoTramite.ENTREGA:
-            return self.config.entrega_media + (random.random() - 0.5) * 2 * self.config.entrega_rango
+            return 1.5 + random.random() * (2.5 - 1.5)
         else:
-            return random.expovariate(1 / self.config.solicitud_media)
-
+            return -6 * math.log(1 - random.random()) # Fin solicitud → igual a expovariate(1/6)
+    
     def finalizar_atencion(self, persona_id):
-        persona = self.personas[persona_id]
         for emp in self.empleados:
             if emp.persona_atendiendo == persona_id:
                 emp.libre = True
@@ -212,7 +211,6 @@ class Simulador:
 
             "cola": len(self.cola),
             "personas_local": len([p for p in self.personas.values() if p.estado != EstadoPersona.DESTRUIDO]),
-
             "acum_atendidos": self.contador_personas_que_ingresaron,
             "acum_permanencia": round(self.acumulador_permanencia, 2),
             "acum_no_ingresa": self.contador_rechazados_por_capacidad,
