@@ -1,10 +1,74 @@
+"use client"
+
+import { useState } from "react"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 import { Badge } from "./ui/badge"
 import { ScrollArea, ScrollBar } from "./ui/scroll-area"
-import { BarChart3, Clock, Users, TrendingUp } from 'lucide-react'
+import { Button } from "./ui/button"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select"
+import {
+  BarChart3,
+  Clock,
+  Users,
+  TrendingUp,
+  ChevronLeft,
+  ChevronRight,
+  ChevronsLeft,
+  ChevronsRight,
+} from "lucide-react"
 
 export default function VectorDeEstado({ vector, estadisticas }) {
+  const [currentPage, setCurrentPage] = useState(1)
+  const [itemsPerPage, setItemsPerPage] = useState(10)
+
   const maxClientes = 10
+
+  // Calcular paginación
+  const totalItems = vector.length
+  const totalPages = Math.ceil(totalItems / itemsPerPage)
+  const startIndex = (currentPage - 1) * itemsPerPage
+  const endIndex = startIndex + itemsPerPage
+  const currentData = vector.slice(startIndex, endIndex)
+
+  // Funciones de navegación
+  const goToFirstPage = () => setCurrentPage(1)
+  const goToLastPage = () => setCurrentPage(totalPages)
+  const goToPreviousPage = () => setCurrentPage(Math.max(1, currentPage - 1))
+  const goToNextPage = () => setCurrentPage(Math.min(totalPages, currentPage + 1))
+  const goToPage = (page) => setCurrentPage(page)
+
+  // Cambiar items por página
+  const handleItemsPerPageChange = (value) => {
+    setItemsPerPage(Number(value))
+    setCurrentPage(1) // Reset a la primera página
+  }
+
+  // Generar números de página para mostrar
+  const getPageNumbers = () => {
+    const delta = 2 // Número de páginas a mostrar a cada lado de la página actual
+    const range = []
+    const rangeWithDots = []
+
+    for (let i = Math.max(2, currentPage - delta); i <= Math.min(totalPages - 1, currentPage + delta); i++) {
+      range.push(i)
+    }
+
+    if (currentPage - delta > 2) {
+      rangeWithDots.push(1, "...")
+    } else {
+      rangeWithDots.push(1)
+    }
+
+    rangeWithDots.push(...range)
+
+    if (currentPage + delta < totalPages - 1) {
+      rangeWithDots.push("...", totalPages)
+    } else {
+      if (totalPages > 1) rangeWithDots.push(totalPages)
+    }
+
+    return rangeWithDots
+  }
 
   const formatValue = (value) => {
     if (value === null || value === undefined) return "-"
@@ -52,14 +116,43 @@ export default function VectorDeEstado({ vector, estadisticas }) {
     <div className="w-full space-y-6">
       <Card className="border-2 border-blue-200 bg-white shadow-md">
         <CardHeader className="bg-gradient-to-r from-blue-50 to-indigo-50 border-b border-blue-100">
-          <CardTitle className="flex items-center gap-2 text-blue-900">
-            <BarChart3 className="h-5 w-5" />
-            Vector de Estado - Resultados de Simulación
-          </CardTitle>
-          <CardDescription className="text-blue-700">
-            Tabla detallada con todos los eventos y estados del sistema durante la simulación
-          </CardDescription>
+          <div className="flex items-center justify-between">
+            <div>
+              <CardTitle className="flex items-center gap-2 text-blue-900">
+                <BarChart3 className="h-5 w-5" />
+                Vector de Estado - Resultados de Simulación
+              </CardTitle>
+              <CardDescription className="text-blue-700">
+                Tabla detallada con todos los eventos y estados del sistema durante la simulación
+              </CardDescription>
+            </div>
+
+            {/* Controles de paginación superior */}
+            <div className="flex items-center gap-4">
+              <div className="flex items-center gap-2">
+                <span className="text-sm text-gray-600">Mostrar:</span>
+                <Select value={itemsPerPage.toString()} onValueChange={handleItemsPerPageChange}>
+                  <SelectTrigger className="w-20">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="5">5</SelectItem>
+                    <SelectItem value="10">10</SelectItem>
+                    <SelectItem value="20">20</SelectItem>
+                    <SelectItem value="50">50</SelectItem>
+                    <SelectItem value="100">100</SelectItem>
+                  </SelectContent>
+                </Select>
+                <span className="text-sm text-gray-600">por página</span>
+              </div>
+
+              <div className="text-sm text-gray-600">
+                Mostrando {startIndex + 1}-{Math.min(endIndex, totalItems)} de {totalItems} registros
+              </div>
+            </div>
+          </div>
         </CardHeader>
+
         <CardContent className="p-0">
           <ScrollArea className="w-full">
             <div className="overflow-x-auto">
@@ -192,9 +285,9 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                   </tr>
                 </thead>
                 <tbody>
-                  {vector.map((fila, idx) => (
+                  {currentData.map((fila, idx) => (
                     <tr
-                      key={idx}
+                      key={startIndex + idx}
                       className={`${
                         idx % 2 === 0 ? "bg-white" : "bg-gray-50"
                       } hover:bg-blue-50 transition-colors duration-200`}
@@ -325,7 +418,7 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                         const c = fila.clientes?.[i]
                         return (
                           <>
-                            <td key={`${idx}-c${i}-id`} className="border border-gray-200 px-2 py-2">
+                            <td key={`${startIndex + idx}-c${i}-id`} className="border border-gray-200 px-2 py-2">
                               {c?.id ? (
                                 <Badge className="text-xs bg-gradient-to-r from-indigo-500 to-purple-500 text-white border-0">
                                   {c.id}
@@ -335,25 +428,25 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                               )}
                             </td>
                             <td
-                              key={`${idx}-c${i}-hora`}
+                              key={`${startIndex + idx}-c${i}-hora`}
                               className="border border-gray-200 px-2 py-2 font-mono text-gray-700"
                             >
                               {c?.hora_llegada ?? "-"}
                             </td>
-                            <td key={`${idx}-c${i}-estado`} className="border border-gray-200 px-2 py-2">
+                            <td key={`${startIndex + idx}-c${i}-estado`} className="border border-gray-200 px-2 py-2">
                               {getEstadoBadge(c?.estado)}
                             </td>
                             <td
-                              key={`${idx}-c${i}-reins`}
+                              key={`${startIndex + idx}-c${i}-reins`}
                               className="border border-gray-200 px-2 py-2 font-mono text-gray-700"
                             >
                               {c?.reinsercion ?? "-"}
                             </td>
-                            <td key={`${idx}-c${i}-cerrado`} className="border border-gray-200 px-2 py-2">
+                            <td key={`${startIndex + idx}-c${i}-cerrado`} className="border border-gray-200 px-2 py-2">
                               {getBooleanBadge(c?.centro_cerrado)}
                             </td>
                             <td
-                              key={`${idx}-c${i}-perm`}
+                              key={`${startIndex + idx}-c${i}-perm`}
                               className="border border-gray-200 px-2 py-2 font-mono text-gray-700"
                             >
                               {c?.permanencia ?? "-"}
@@ -368,6 +461,91 @@ export default function VectorDeEstado({ vector, estadisticas }) {
             </div>
             <ScrollBar orientation="horizontal" />
           </ScrollArea>
+
+          {/* Controles de paginación inferior */}
+          <div className="flex items-center justify-between px-6 py-4 border-t border-gray-200 bg-gray-50">
+            <div className="flex items-center gap-2 text-sm text-gray-600">
+              <span>
+                Página {currentPage} de {totalPages}
+              </span>
+              <span>•</span>
+              <span>{totalItems} registros en total</span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              {/* Ir a primera página */}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={goToFirstPage}
+                disabled={currentPage === 1}
+                className="h-8 w-8 p-0 hover:bg-blue-50 border-blue-200"
+                title="Primera página"
+              >
+                <ChevronsLeft className="h-4 w-4 text-blue-600" />
+              </Button>
+
+              {/* Página anterior */}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={goToPreviousPage}
+                disabled={currentPage === 1}
+                className="h-8 w-8 p-0 hover:bg-blue-50 border-blue-200"
+                title="Página anterior"
+              >
+                <ChevronLeft className="h-4 w-4 text-blue-600" />
+              </Button>
+
+              {/* Números de página */}
+              <div className="flex items-center gap-1">
+                {getPageNumbers().map((pageNumber, index) => (
+                  <div key={index}>
+                    {pageNumber === "..." ? (
+                      <span className="px-3 py-1 text-gray-500 text-sm">...</span>
+                    ) : (
+                      <Button
+                        variant={currentPage === pageNumber ? "default" : "outline"}
+                        size="sm"
+                        onClick={() => goToPage(pageNumber)}
+                        className={`h-8 min-w-8 px-2 text-sm ${
+                          currentPage === pageNumber
+                            ? "bg-blue-600 text-white hover:bg-blue-700 border-blue-600"
+                            : "hover:bg-blue-50 border-blue-200 text-blue-600"
+                        }`}
+                      >
+                        {pageNumber}
+                      </Button>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              {/* Página siguiente */}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={goToNextPage}
+                disabled={currentPage === totalPages}
+                className="h-8 w-8 p-0 hover:bg-blue-50 border-blue-200"
+                title="Página siguiente"
+              >
+                <ChevronRight className="h-4 w-4 text-blue-600" />
+              </Button>
+
+              {/* Ir a última página */}
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={goToLastPage}
+                disabled={currentPage === totalPages}
+                className="h-8 w-8 p-0 hover:bg-blue-50 border-blue-200"
+                title="Última página"
+              >
+                <ChevronsRight className="h-4 w-4 text-blue-600" />
+              </Button>
+            </div>
+          </div>
         </CardContent>
       </Card>
 

@@ -294,7 +294,7 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
           <Button
             type="submit"
             size="lg"
-            className="px-12 py-3 text-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg"
+            className="px-12 py-3 text-lg bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-lg text-white font-semibold transition-colors duration-200"
             disabled={isLoading}
           >
             {isLoading ? (
