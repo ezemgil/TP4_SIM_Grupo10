@@ -25,7 +25,6 @@ class Simulador:
         self.contador_personas_que_ingresaron = 0
         self.contador_rechazados_por_capacidad = 0
 
-        # Para guardar últimos valores
         self.ultima_llegada_valor = None
         self.ultima_proxima_llegada = None
         self.ultima_rnd_tramite = None
@@ -117,12 +116,35 @@ class Simulador:
 
         elif evento.tipo == TipoEvento.FIN_ACTIVIDAD_SECUNDARIA:
             persona = self.personas[evento.persona_id]
-            persona.estado = EstadoPersona.ENTREGANDO_DOCUMENTOS
-            self.cola.append(persona)
-            self.intentar_atender()
+            en_cola = len(self.cola)
+            en_actividad_secundaria = len([
+                p for p in self.personas.values()
+                if p.estado == EstadoPersona.REALIZANDO_ACTIVIDAD_SECUNDARIA
+            ])
+            en_atencion = sum(
+                1 for emp in self.empleados if not emp.libre and emp.persona_atendiendo is not None
+            )
+            if (en_cola + en_actividad_secundaria + en_atencion) < self.config.capacidad_maxima:
+                persona.estado = EstadoPersona.ENTREGANDO_DOCUMENTOS
+                persona.vino_de_actividad_secundaria = True
+                self.cola.append(persona)
+                self.intentar_atender()
+            else:
+                persona.estado = EstadoPersona.DESTRUIDO
+                persona.hora_salida = self.reloj
+                persona.tiempo_permanencia = self.reloj - persona.hora_llegada
+                self.acumulador_permanencia += persona.tiempo_permanencia
 
     def puede_entrar_al_sistema(self):
-        return len([p for p in self.personas.values() if p.estado != EstadoPersona.DESTRUIDO]) < self.config.capacidad_maxima
+        en_cola = len(self.cola)
+        en_actividad_secundaria = len([
+            p for p in self.personas.values()
+            if p.estado == EstadoPersona.REALIZANDO_ACTIVIDAD_SECUNDARIA
+        ])
+        en_atencion = sum(
+            1 for emp in self.empleados if not emp.libre and emp.persona_atendiendo is not None
+        )
+        return (en_cola + en_actividad_secundaria + en_atencion) < self.config.capacidad_maxima
 
     def intentar_atender(self):
         for emp in self.empleados:
@@ -157,13 +179,20 @@ class Simulador:
         elif persona.tramite == TipoTramite.ENTREGA:
             return 1.5 + random.random() * (2.5 - 1.5)
         else:
-            return -6 * math.log(1 - random.random()) # Fin solicitud → igual a expovariate(1/6)
+            return -6 * math.log(1 - random.random())
     
     def finalizar_atencion(self, persona_id):
+        persona = self.personas[persona_id]
         for emp in self.empleados:
             if emp.persona_atendiendo == persona_id:
                 emp.libre = True
                 emp.persona_atendiendo = None
+
+        if getattr(persona, "vino_de_actividad_secundaria", False):
+            persona.estado = EstadoPersona.DESTRUIDO
+            persona.hora_salida = self.reloj
+            persona.tiempo_permanencia = self.reloj - persona.hora_llegada
+            self.acumulador_permanencia += persona.tiempo_permanencia
 
     def registrar_estado(self, evento):
         clientes_data = [
@@ -210,7 +239,12 @@ class Simulador:
             "reinsercion": self.reinsercion_actual,
 
             "cola": len(self.cola),
-            "personas_local": len([p for p in self.personas.values() if p.estado != EstadoPersona.DESTRUIDO]),
+            "personas_local": len(self.cola) + len([
+                p for p in self.personas.values()
+                if p.estado == EstadoPersona.REALIZANDO_ACTIVIDAD_SECUNDARIA
+            ]) + sum(
+                1 for emp in self.empleados if not emp.libre and emp.persona_atendiendo is not None
+            ),
             "acum_atendidos": self.contador_personas_que_ingresaron,
             "acum_permanencia": round(self.acumulador_permanencia, 2),
             "acum_no_ingresa": self.contador_rechazados_por_capacidad,
