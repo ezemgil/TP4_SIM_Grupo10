@@ -83,7 +83,10 @@ class Simulador:
             else:
                 persona.centro_cerrado = "Sí"
                 self.contador_rechazados_por_capacidad += 1
-
+                # Eliminar persona destruida por capacidad
+                persona.estado = EstadoPersona.DESTRUIDO
+                del self.personas[persona.id]
+            # Programar próxima llegada
             self.programar_evento(TipoEvento.LLEGADA, self.ultima_proxima_llegada)
 
         elif evento.tipo in [TipoEvento.FIN_CONSULTA, TipoEvento.FIN_ENTREGA]:
@@ -92,7 +95,9 @@ class Simulador:
 
         elif evento.tipo == TipoEvento.FIN_SOLICITUD:
             self.finalizar_atencion(evento.persona_id)
-            persona = self.personas[evento.persona_id]
+            persona = self.personas.get(evento.persona_id)
+            if persona is None:
+                return
             self.rnd_actividad_secundaria = random.random()
             if self.rnd_actividad_secundaria < self.config.prob_se_va_tras_solicitud / 100:
                 persona.estado = EstadoPersona.DESTRUIDO
@@ -103,6 +108,8 @@ class Simulador:
                 self.rnd_valor_ras = None
                 self.valor_ras = None
                 self.reinsercion_actual = None
+                # Eliminar persona destruida
+                del self.personas[persona.id]
             else:
                 persona.estado = EstadoPersona.REALIZANDO_ACTIVIDAD_SECUNDARIA
                 self.se_queda_ras = "Sí"
@@ -115,7 +122,9 @@ class Simulador:
             self.intentar_atender()
 
         elif evento.tipo == TipoEvento.FIN_ACTIVIDAD_SECUNDARIA:
-            persona = self.personas[evento.persona_id]
+            persona = self.personas.get(evento.persona_id)
+            if persona is None:
+                return
             en_cola = len(self.cola)
             en_actividad_secundaria = len([
                 p for p in self.personas.values()
@@ -134,6 +143,8 @@ class Simulador:
                 persona.hora_salida = self.reloj
                 persona.tiempo_permanencia = self.reloj - persona.hora_llegada
                 self.acumulador_permanencia += persona.tiempo_permanencia
+                # Eliminar persona destruida
+                del self.personas[persona.id]
 
     def puede_entrar_al_sistema(self):
         en_cola = len(self.cola)
@@ -184,17 +195,20 @@ class Simulador:
             return -self.config.solicitud_media * math.log(1 - random.random())
     
     def finalizar_atencion(self, persona_id):
-        persona = self.personas[persona_id]
+        persona = self.personas.get(persona_id)
+        if persona is None:
+            return
         for emp in self.empleados:
             if emp.persona_atendiendo == persona_id:
                 emp.libre = True
                 emp.persona_atendiendo = None
-
         if getattr(persona, "vino_de_actividad_secundaria", False):
             persona.estado = EstadoPersona.DESTRUIDO
             persona.hora_salida = self.reloj
             persona.tiempo_permanencia = self.reloj - persona.hora_llegada
             self.acumulador_permanencia += persona.tiempo_permanencia
+            # Eliminar persona destruida
+            del self.personas[persona.id]
 
     def registrar_estado(self, evento):
         clientes_data = [
