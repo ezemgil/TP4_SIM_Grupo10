@@ -26,8 +26,6 @@ class Persona:
             self.tramite = TipoTramite.ENTREGA
         else:
             self.tramite = TipoTramite.CONSULTA
-
-        # Resto de atributos...
         self.reinsercion = None
         self.centro_cerrado = None
         self.hora_salida = None

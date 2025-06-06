@@ -175,11 +175,13 @@ class Simulador:
 
     def obtener_duracion(self, persona):
         if persona.tramite == TipoTramite.CONSULTA:
-            return -6 * math.log(1 - random.random())
+            return self.config.consulta_min + (self.config.consulta_max - self.config.consulta_min) * random.random()
         elif persona.tramite == TipoTramite.ENTREGA:
-            return 1.5 + random.random() * (2.5 - 1.5)
+            min_entrega = self.config.entrega_media - self.config.entrega_rango
+            max_entrega = self.config.entrega_media + self.config.entrega_rango
+            return min_entrega + (max_entrega - min_entrega) * random.random()
         else:
-            return -6 * math.log(1 - random.random())
+            return -self.config.solicitud_media * math.log(1 - random.random())
     
     def finalizar_atencion(self, persona_id):
         persona = self.personas[persona_id]

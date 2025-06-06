@@ -10,7 +10,7 @@ class ParametrosSimulacion(BaseModel):
     mostrar_desde: int
     mostrar_cantidad: int
 
-    # Parámetros del sistema (resaltados en rojo)
+    # Parámetros del sistema
     tiempo_entre_llegadas: float
     prob_solicitud: float
     prob_entrega: float
