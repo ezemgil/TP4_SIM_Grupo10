@@ -1,11 +1,23 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
-import { Badge } from "./ui/badge"
-import { ScrollArea, ScrollBar } from "./ui/scroll-area"
-import { Button } from "./ui/button"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select"
+import { useState } from "react";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "./ui/card";
+import { Badge } from "./ui/badge";
+import { ScrollArea, ScrollBar } from "./ui/scroll-area";
+import { Button } from "./ui/button";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "./ui/select";
 import {
   BarChart3,
   Clock,
@@ -15,71 +27,76 @@ import {
   ChevronRight,
   ChevronsLeft,
   ChevronsRight,
-} from "lucide-react"
+} from "lucide-react";
 
 export default function VectorDeEstado({ vector, estadisticas }) {
-  const [currentPage, setCurrentPage] = useState(1)
-  const [itemsPerPage, setItemsPerPage] = useState(10)
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(10);
 
-  const maxClientes = 10
+  const maxClientes = 10;
 
   // Calcular paginación
-  const totalItems = vector.length
-  const totalPages = Math.ceil(totalItems / itemsPerPage)
-  const startIndex = (currentPage - 1) * itemsPerPage
-  const endIndex = startIndex + itemsPerPage
-  const currentData = vector.slice(startIndex, endIndex)
+  const totalItems = vector.length;
+  const totalPages = Math.ceil(totalItems / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentData = vector.slice(startIndex, endIndex);
 
   // Funciones de navegación
-  const goToFirstPage = () => setCurrentPage(1)
-  const goToLastPage = () => setCurrentPage(totalPages)
-  const goToPreviousPage = () => setCurrentPage(Math.max(1, currentPage - 1))
-  const goToNextPage = () => setCurrentPage(Math.min(totalPages, currentPage + 1))
-  const goToPage = (page) => setCurrentPage(page)
+  const goToFirstPage = () => setCurrentPage(1);
+  const goToLastPage = () => setCurrentPage(totalPages);
+  const goToPreviousPage = () => setCurrentPage(Math.max(1, currentPage - 1));
+  const goToNextPage = () =>
+    setCurrentPage(Math.min(totalPages, currentPage + 1));
+  const goToPage = (page) => setCurrentPage(page);
 
   // Cambiar items por página
   const handleItemsPerPageChange = (value) => {
-    setItemsPerPage(Number(value))
-    setCurrentPage(1) // Reset a la primera página
-  }
+    setItemsPerPage(Number(value));
+    setCurrentPage(1); // Reset a la primera página
+  };
 
   // Generar números de página para mostrar
   const getPageNumbers = () => {
-    const delta = 2 // Número de páginas a mostrar a cada lado de la página actual
-    const range = []
-    const rangeWithDots = []
+    const delta = 2; // Número de páginas a mostrar a cada lado de la página actual
+    const range = [];
+    const rangeWithDots = [];
 
-    for (let i = Math.max(2, currentPage - delta); i <= Math.min(totalPages - 1, currentPage + delta); i++) {
-      range.push(i)
+    for (
+      let i = Math.max(2, currentPage - delta);
+      i <= Math.min(totalPages - 1, currentPage + delta);
+      i++
+    ) {
+      range.push(i);
     }
 
     if (currentPage - delta > 2) {
-      rangeWithDots.push(1, "...")
+      rangeWithDots.push(1, "...");
     } else {
-      rangeWithDots.push(1)
+      rangeWithDots.push(1);
     }
 
-    rangeWithDots.push(...range)
+    rangeWithDots.push(...range);
 
     if (currentPage + delta < totalPages - 1) {
-      rangeWithDots.push("...", totalPages)
+      rangeWithDots.push("...", totalPages);
     } else {
-      if (totalPages > 1) rangeWithDots.push(totalPages)
+      if (totalPages > 1) rangeWithDots.push(totalPages);
     }
 
-    return rangeWithDots
-  }
+    return rangeWithDots;
+  };
 
   const formatValue = (value) => {
-    if (value === null || value === undefined) return "-"
+    if (value === null || value === undefined) return "-";
     if (typeof value === "number") {
-      return Number.isInteger(value) ? value.toString() : value.toFixed(2)
+      return Number.isInteger(value) ? value.toString() : value.toFixed(2);
     }
-    return value.toString()
-  }
+    return value.toString();
+  };
 
   const getBooleanBadge = (value) => {
-    if (value === null || value === undefined) return "-"
+    if (value === null || value === undefined) return "-";
     return (
       <Badge
         variant={value ? "default" : "secondary"}
@@ -91,26 +108,42 @@ export default function VectorDeEstado({ vector, estadisticas }) {
       >
         {value ? "Sí" : "No"}
       </Badge>
-    )
-  }
+    );
+  };
 
   const getEstadoBadge = (estado) => {
-    if (!estado) return "-"
+    if (!estado) return "-";
 
     const variants = {
-      esperando: { bg: "bg-gradient-to-r from-yellow-500 to-orange-500", text: "text-white" },
-      atendido: { bg: "bg-gradient-to-r from-green-500 to-emerald-500", text: "text-white" },
-      libre: { bg: "bg-gradient-to-r from-gray-400 to-gray-500", text: "text-white" },
-      ocupado: { bg: "bg-gradient-to-r from-red-500 to-pink-500", text: "text-white" },
-    }
+      esperando: {
+        bg: "bg-gradient-to-r from-yellow-500 to-orange-500",
+        text: "text-white",
+      },
+      atendido: {
+        bg: "bg-gradient-to-r from-green-500 to-emerald-500",
+        text: "text-white",
+      },
+      libre: {
+        bg: "bg-gradient-to-r from-gray-400 to-gray-500",
+        text: "text-white",
+      },
+      ocupado: {
+        bg: "bg-gradient-to-r from-red-500 to-pink-500",
+        text: "text-white",
+      },
+    };
 
     const variant = variants[estado.toLowerCase()] || {
       bg: "bg-gray-200",
       text: "text-gray-800",
-    }
+    };
 
-    return <Badge className={`text-xs ${variant.bg} ${variant.text} border-0`}>{estado}</Badge>
-  }
+    return (
+      <Badge className={`text-xs ${variant.bg} ${variant.text} border-0`}>
+        {estado}
+      </Badge>
+    );
+  };
 
   return (
     <div className="w-full space-y-6">
@@ -123,7 +156,8 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                 Vector de Estado - Resultados de Simulación
               </CardTitle>
               <CardDescription className="text-blue-700">
-                Tabla detallada con todos los eventos y estados del sistema durante la simulación
+                Tabla detallada con todos los eventos y estados del sistema
+                durante la simulación
               </CardDescription>
             </div>
 
@@ -131,7 +165,10 @@ export default function VectorDeEstado({ vector, estadisticas }) {
             <div className="flex items-center gap-4">
               <div className="flex items-center gap-2">
                 <span className="text-sm text-gray-600">Mostrar:</span>
-                <Select value={itemsPerPage.toString()} onValueChange={handleItemsPerPageChange}>
+                <Select
+                  value={itemsPerPage.toString()}
+                  onValueChange={handleItemsPerPageChange}
+                >
                   <SelectTrigger className="w-20">
                     <SelectValue />
                   </SelectTrigger>
@@ -147,7 +184,8 @@ export default function VectorDeEstado({ vector, estadisticas }) {
               </div>
 
               <div className="text-sm text-gray-600">
-                Mostrando {startIndex + 1}-{Math.min(endIndex, totalItems)} de {totalItems} registros
+                Mostrando {startIndex + 1}-{Math.min(endIndex, totalItems)} de{" "}
+                {totalItems} registros
               </div>
             </div>
           </div>
@@ -212,7 +250,9 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                     </th>
 
                     {/* Secondary Activities */}
-                    <th className="border border-gray-200 px-2 py-2 bg-red-50 font-semibold text-red-700">RAS - RND</th>
+                    <th className="border border-gray-200 px-2 py-2 bg-red-50 font-semibold text-red-700">
+                      RAS - RND
+                    </th>
                     <th className="border border-gray-200 px-2 py-2 bg-red-50 font-semibold text-red-700">
                       RAS - ¿Se queda?
                     </th>
@@ -227,7 +267,9 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                     </th>
 
                     {/* System State */}
-                    <th className="border border-gray-200 px-2 py-2 bg-gray-50 font-semibold text-gray-700">Cola</th>
+                    <th className="border border-gray-200 px-2 py-2 bg-gray-50 font-semibold text-gray-700">
+                      Cola
+                    </th>
                     <th className="border border-gray-200 px-2 py-2 bg-gray-50 font-semibold text-gray-700">
                       Personas Local
                     </th>
@@ -338,7 +380,9 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                             <Badge className="text-xs bg-gradient-to-r from-red-500 to-pink-500 text-white border-0">
                               Ocupado
                             </Badge>
-                            <span className="text-xs text-gray-500">({fila.empleado_1?.atendiendo})</span>
+                            <span className="text-xs text-gray-500">
+                              ({fila.empleado_1?.atendiendo})
+                            </span>
                           </div>
                         )}
                       </td>
@@ -363,7 +407,9 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                             <Badge className="text-xs bg-gradient-to-r from-red-500 to-pink-500 text-white border-0">
                               Ocupado
                             </Badge>
-                            <span className="text-xs text-gray-500">({fila.empleado_2?.atendiendo})</span>
+                            <span className="text-xs text-gray-500">
+                              ({fila.empleado_2?.atendiendo})
+                            </span>
                           </div>
                         )}
                       </td>
@@ -381,7 +427,9 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                       <td className="border border-gray-200 px-2 py-2 font-mono text-gray-700">
                         {fila.rnd_ras ?? "-"}
                       </td>
-                      <td className="border border-gray-200 px-2 py-2">{getBooleanBadge(fila.se_queda_ras)}</td>
+                      <td className="border border-gray-200 px-2 py-2">
+                        {getBooleanBadge(fila.se_queda_ras)}
+                      </td>
                       <td className="border border-gray-200 px-2 py-2 font-mono text-gray-700">
                         {fila.rnd_valor_ras ?? "-"}
                       </td>
@@ -415,10 +463,13 @@ export default function VectorDeEstado({ vector, estadisticas }) {
 
                       {/* Clients */}
                       {Array.from({ length: maxClientes }).map((_, i) => {
-                        const c = fila.clientes?.[i]
+                        const c = fila.clientes?.[i];
                         return (
                           <>
-                            <td key={`${startIndex + idx}-c${i}-id`} className="border border-gray-200 px-2 py-2">
+                            <td
+                              key={`${startIndex + idx}-c${i}-id`}
+                              className="border border-gray-200 px-2 py-2"
+                            >
                               {c?.id ? (
                                 <Badge className="text-xs bg-gradient-to-r from-indigo-500 to-purple-500 text-white border-0">
                                   {c.id}
@@ -433,7 +484,10 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                             >
                               {c?.hora_llegada ?? "-"}
                             </td>
-                            <td key={`${startIndex + idx}-c${i}-estado`} className="border border-gray-200 px-2 py-2">
+                            <td
+                              key={`${startIndex + idx}-c${i}-estado`}
+                              className="border border-gray-200 px-2 py-2"
+                            >
                               {getEstadoBadge(c?.estado)}
                             </td>
                             <td
@@ -442,7 +496,10 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                             >
                               {c?.reinsercion ?? "-"}
                             </td>
-                            <td key={`${startIndex + idx}-c${i}-cerrado`} className="border border-gray-200 px-2 py-2">
+                            <td
+                              key={`${startIndex + idx}-c${i}-cerrado`}
+                              className="border border-gray-200 px-2 py-2"
+                            >
                               {getBooleanBadge(c?.centro_cerrado)}
                             </td>
                             <td
@@ -452,7 +509,7 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                               {c?.permanencia ?? "-"}
                             </td>
                           </>
-                        )
+                        );
                       })}
                     </tr>
                   ))}
@@ -502,10 +559,14 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                 {getPageNumbers().map((pageNumber, index) => (
                   <div key={index}>
                     {pageNumber === "..." ? (
-                      <span className="px-3 py-1 text-gray-500 text-sm">...</span>
+                      <span className="px-3 py-1 text-gray-500 text-sm">
+                        ...
+                      </span>
                     ) : (
                       <Button
-                        variant={currentPage === pageNumber ? "default" : "outline"}
+                        variant={
+                          currentPage === pageNumber ? "default" : "outline"
+                        }
                         size="sm"
                         onClick={() => goToPage(pageNumber)}
                         className={`h-8 min-w-8 px-2 text-sm ${
@@ -556,7 +617,9 @@ export default function VectorDeEstado({ vector, estadisticas }) {
             <TrendingUp className="h-5 w-5" />
             Estadísticas Finales
           </CardTitle>
-          <CardDescription className="text-blue-700">Resumen de los resultados de la simulación</CardDescription>
+          <CardDescription className="text-blue-700">
+            Resumen de los resultados de la simulación
+          </CardDescription>
         </CardHeader>
         <CardContent className="p-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -565,8 +628,12 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                 <Clock className="h-8 w-8 text-white" />
               </div>
               <div>
-                <p className="text-sm font-medium text-blue-100">Promedio de Permanencia</p>
-                <p className="text-3xl font-bold text-white">{formatValue(estadisticas.promedio_permanencia)}</p>
+                <p className="text-sm font-medium text-blue-100">
+                  Promedio de Permanencia
+                </p>
+                <p className="text-3xl font-bold text-white">
+                  {formatValue(estadisticas.promedio_permanencia)}
+                </p>
               </div>
             </div>
 
@@ -575,13 +642,17 @@ export default function VectorDeEstado({ vector, estadisticas }) {
                 <Users className="h-8 w-8 text-white" />
               </div>
               <div>
-                <p className="text-sm font-medium text-red-100">% Rechazo por Capacidad</p>
-                <p className="text-3xl font-bold text-white">{formatValue(estadisticas.rechazo_por_capacidad)}%</p>
+                <p className="text-sm font-medium text-red-100">
+                  % Rechazo por Capacidad
+                </p>
+                <p className="text-3xl font-bold text-white">
+                  {formatValue(estadisticas.rechazo_por_capacidad)}%
+                </p>
               </div>
             </div>
           </div>
         </CardContent>
       </Card>
     </div>
-  )
+  );
 }

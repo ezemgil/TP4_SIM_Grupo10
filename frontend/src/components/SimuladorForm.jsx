@@ -1,11 +1,25 @@
-import { useState } from "react"
-import { Button } from "./ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
-import { Input } from "./ui/input"
-import { Label } from "./ui/label"
-import { Separator } from "./ui/separator"
-import { Progress } from "./ui/progress"
-import { Play, Settings, Clock, Users, TrendingUp, Loader2 } from 'lucide-react'
+import { useState } from "react";
+import { Button } from "./ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "./ui/card";
+import { Input } from "./ui/input";
+import { Label } from "./ui/label";
+import { Separator } from "./ui/separator";
+import { Progress } from "./ui/progress";
+import {
+  Play,
+  Settings,
+  Clock,
+  Users,
+  TrendingUp,
+  Loader2,
+} from "lucide-react";
+import { validarParametros } from "../lib/validarParametros";
 
 export default function SimulatorForm({ onSimular, isLoading = false }) {
   const [params, setParams] = useState({
@@ -25,25 +39,31 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
     actividad_media: 30,
     prob_se_va_tras_solicitud: 60,
     capacidad_maxima: 20,
-  })
+  });
+  const [errores, setErrores] = useState({});
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setParams({ ...params, [name]: Number.parseFloat(value) })
-  }
+    const { name, value } = e.target;
+    setParams({ ...params, [name]: Number.parseFloat(value) });
+    setErrores({ ...errores, [name]: undefined });
+  };
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    onSimular(params)
-  }
+    e.preventDefault();
+    const erroresVal = validarParametros(params);
+    setErrores(erroresVal);
+    if (Object.keys(erroresVal).length === 0) {
+      onSimular(params);
+    }
+  };
 
   const formatLabel = (key) => {
     return key
       .replaceAll("_", " ")
       .split(" ")
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join(" ")
-  }
+      .join(" ");
+  };
 
   return (
     <div className="w-full max-w-6xl mx-auto space-y-6">
@@ -62,7 +82,10 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
           <CardContent className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <Label htmlFor="tiempo_simulacion" className="text-sm font-medium text-gray-700">
+                <Label
+                  htmlFor="tiempo_simulacion"
+                  className="text-sm font-medium text-gray-700"
+                >
                   {formatLabel("tiempo_simulacion")}
                 </Label>
                 <Input
@@ -72,14 +95,26 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                   name="tiempo_simulacion"
                   value={params.tiempo_simulacion}
                   onChange={handleChange}
-                  className="border-blue-200 focus:border-blue-400 focus:ring-blue-400"
+                  className={`border-blue-200 focus:border-blue-400 focus:ring-blue-400 ${
+                    errores.tiempo_simulacion ? "border-red-400" : ""
+                  }`}
                   disabled={isLoading}
                 />
-                <p className="text-xs text-gray-600">Duración total de la simulación</p>
+                {errores.tiempo_simulacion && (
+                  <p className="text-xs text-red-600">
+                    {errores.tiempo_simulacion}
+                  </p>
+                )}
+                <p className="text-xs text-gray-600">
+                  Duración total de la simulación
+                </p>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="cantidad_iteraciones" className="text-sm font-medium text-gray-700">
+                <Label
+                  htmlFor="cantidad_iteraciones"
+                  className="text-sm font-medium text-gray-700"
+                >
                   {formatLabel("cantidad_iteraciones")}
                 </Label>
                 <Input
@@ -89,14 +124,26 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                   name="cantidad_iteraciones"
                   value={params.cantidad_iteraciones}
                   onChange={handleChange}
-                  className="border-blue-200 focus:border-blue-400 focus:ring-blue-400"
+                  className={`border-blue-200 focus:border-blue-400 focus:ring-blue-400 ${
+                    errores.cantidad_iteraciones ? "border-red-400" : ""
+                  }`}
                   disabled={isLoading}
                 />
-                <p className="text-xs text-gray-600">Número de iteraciones a ejecutar</p>
+                {errores.cantidad_iteraciones && (
+                  <p className="text-xs text-red-600">
+                    {errores.cantidad_iteraciones}
+                  </p>
+                )}
+                <p className="text-xs text-gray-600">
+                  Número de iteraciones a ejecutar
+                </p>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="mostrar_desde" className="text-sm font-medium text-gray-700">
+                <Label
+                  htmlFor="mostrar_desde"
+                  className="text-sm font-medium text-gray-700"
+                >
                   {formatLabel("mostrar_desde")}
                 </Label>
                 <Input
@@ -106,14 +153,26 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                   name="mostrar_desde"
                   value={params.mostrar_desde}
                   onChange={handleChange}
-                  className="border-blue-200 focus:border-blue-400 focus:ring-blue-400"
+                  className={`border-blue-200 focus:border-blue-400 focus:ring-blue-400 ${
+                    errores.mostrar_desde ? "border-red-400" : ""
+                  }`}
                   disabled={isLoading}
                 />
-                <p className="text-xs text-gray-600">Punto de inicio para mostrar resultados</p>
+                {errores.mostrar_desde && (
+                  <p className="text-xs text-red-600">
+                    {errores.mostrar_desde}
+                  </p>
+                )}
+                <p className="text-xs text-gray-600">
+                  Punto de inicio para mostrar resultados
+                </p>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="mostrar_cantidad" className="text-sm font-medium text-gray-700">
+                <Label
+                  htmlFor="mostrar_cantidad"
+                  className="text-sm font-medium text-gray-700"
+                >
                   {formatLabel("mostrar_cantidad")}
                 </Label>
                 <Input
@@ -123,10 +182,19 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                   name="mostrar_cantidad"
                   value={params.mostrar_cantidad}
                   onChange={handleChange}
-                  className="border-blue-200 focus:border-blue-400 focus:ring-blue-400"
+                  className={`border-blue-200 focus:border-blue-400 focus:ring-blue-400 ${
+                    errores.mostrar_cantidad ? "border-red-400" : ""
+                  }`}
                   disabled={isLoading}
                 />
-                <p className="text-xs text-gray-600">Cantidad de resultados a mostrar</p>
+                {errores.mostrar_cantidad && (
+                  <p className="text-xs text-red-600">
+                    {errores.mostrar_cantidad}
+                  </p>
+                )}
+                <p className="text-xs text-gray-600">
+                  Cantidad de resultados a mostrar
+                </p>
               </div>
             </div>
           </CardContent>
@@ -146,7 +214,10 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
           <CardContent className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <Label htmlFor="tiempo_entre_llegadas" className="text-sm font-medium text-gray-700">
+                <Label
+                  htmlFor="tiempo_entre_llegadas"
+                  className="text-sm font-medium text-gray-700"
+                >
                   {formatLabel("tiempo_entre_llegadas")}
                 </Label>
                 <Input
@@ -156,14 +227,26 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                   name="tiempo_entre_llegadas"
                   value={params.tiempo_entre_llegadas}
                   onChange={handleChange}
-                  className="border-green-200 focus:border-green-400 focus:ring-green-400"
+                  className={`border-green-200 focus:border-green-400 focus:ring-green-400 ${
+                    errores.tiempo_entre_llegadas ? "border-red-400" : ""
+                  }`}
                   disabled={isLoading}
                 />
-                <p className="text-xs text-gray-600">Tiempo promedio entre llegadas</p>
+                {errores.tiempo_entre_llegadas && (
+                  <p className="text-xs text-red-600">
+                    {errores.tiempo_entre_llegadas}
+                  </p>
+                )}
+                <p className="text-xs text-gray-600">
+                  Tiempo promedio entre llegadas
+                </p>
               </div>
 
               <div className="space-y-2">
-                <Label htmlFor="capacidad_maxima" className="text-sm font-medium text-gray-700">
+                <Label
+                  htmlFor="capacidad_maxima"
+                  className="text-sm font-medium text-gray-700"
+                >
                   {formatLabel("capacidad_maxima")}
                 </Label>
                 <Input
@@ -173,10 +256,19 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                   name="capacidad_maxima"
                   value={params.capacidad_maxima}
                   onChange={handleChange}
-                  className="border-green-200 focus:border-green-400 focus:ring-green-400"
+                  className={`border-green-200 focus:border-green-400 focus:ring-green-400 ${
+                    errores.capacidad_maxima ? "border-red-400" : ""
+                  }`}
                   disabled={isLoading}
                 />
-                <p className="text-xs text-gray-600">Capacidad máxima del sistema</p>
+                {errores.capacidad_maxima && (
+                  <p className="text-xs text-red-600">
+                    {errores.capacidad_maxima}
+                  </p>
+                )}
+                <p className="text-xs text-gray-600">
+                  Capacidad máxima del sistema
+                </p>
               </div>
             </div>
           </CardContent>
@@ -195,9 +287,17 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
           </CardHeader>
           <CardContent className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {["prob_solicitud", "prob_entrega", "prob_consulta", "prob_se_va_tras_solicitud"].map((key) => (
+              {[
+                "prob_solicitud",
+                "prob_entrega",
+                "prob_consulta",
+                "prob_se_va_tras_solicitud",
+              ].map((key) => (
                 <div key={key} className="space-y-2">
-                  <Label htmlFor={key} className="text-sm font-medium text-gray-700">
+                  <Label
+                    htmlFor={key}
+                    className="text-sm font-medium text-gray-700"
+                  >
                     {formatLabel(key)}
                   </Label>
                   <div className="relative">
@@ -208,18 +308,27 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                       name={key}
                       value={params[key]}
                       onChange={handleChange}
-                      className="border-purple-200 focus:border-purple-400 focus:ring-purple-400 pr-8"
+                      className={`border-purple-200 focus:border-purple-400 focus:ring-purple-400 pr-8 ${
+                        errores[key] ? "border-red-400" : ""
+                      }`}
                       min="0"
                       max="100"
                       disabled={isLoading}
                     />
-                    <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-sm text-gray-500">%</span>
+                    <span className="absolute right-3 top-1/2 transform -translate-y-1/2 text-sm text-gray-500">
+                      %
+                    </span>
                   </div>
+                  {errores[key] && (
+                    <p className="text-xs text-red-600">{errores[key]}</p>
+                  )}
                   <p className="text-xs text-gray-600">
-                    {key === "prob_solicitud" && "Probabilidad de solicitud (%)"}
+                    {key === "prob_solicitud" &&
+                      "Probabilidad de solicitud (%)"}
                     {key === "prob_entrega" && "Probabilidad de entrega (%)"}
                     {key === "prob_consulta" && "Probabilidad de consulta (%)"}
-                    {key === "prob_se_va_tras_solicitud" && "Probabilidad de irse tras solicitud (%)"}
+                    {key === "prob_se_va_tras_solicitud" &&
+                      "Probabilidad de irse tras solicitud (%)"}
                   </p>
                 </div>
               ))}
@@ -249,7 +358,10 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                 "actividad_media",
               ].map((key) => (
                 <div key={key} className="space-y-2">
-                  <Label htmlFor={key} className="text-sm font-medium text-gray-700">
+                  <Label
+                    htmlFor={key}
+                    className="text-sm font-medium text-gray-700"
+                  >
                     {formatLabel(key)}
                   </Label>
                   <Input
@@ -259,16 +371,23 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
                     name={key}
                     value={params[key]}
                     onChange={handleChange}
-                    className="border-orange-200 focus:border-orange-400 focus:ring-orange-400"
+                    className={`border-orange-200 focus:border-orange-400 focus:ring-orange-400 ${
+                      errores[key] ? "border-red-400" : ""
+                    }`}
                     disabled={isLoading}
                   />
+                  {errores[key] && (
+                    <p className="text-xs text-red-600">{errores[key]}</p>
+                  )}
                   <p className="text-xs text-gray-600">
                     {key === "consulta_min" && "Tiempo mínimo de consulta"}
                     {key === "consulta_max" && "Tiempo máximo de consulta"}
                     {key === "entrega_media" && "Tiempo promedio de entrega"}
                     {key === "entrega_rango" && "Rango de variación de entrega"}
-                    {key === "solicitud_media" && "Tiempo promedio de solicitud"}
-                    {key === "actividad_media" && "Tiempo promedio de actividad"}
+                    {key === "solicitud_media" &&
+                      "Tiempo promedio de solicitud"}
+                    {key === "actividad_media" &&
+                      "Tiempo promedio de actividad"}
                   </p>
                 </div>
               ))}
@@ -284,10 +403,14 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
             <div className="w-full max-w-md space-y-2">
               <div className="flex items-center justify-center gap-2 text-blue-600">
                 <Loader2 className="h-4 w-4 animate-spin" />
-                <span className="text-sm font-medium">Ejecutando simulación...</span>
+                <span className="text-sm font-medium">
+                  Ejecutando simulación...
+                </span>
               </div>
               <Progress value={66} className="w-full" />
-              <p className="text-xs text-center text-gray-600">Procesando parámetros y generando resultados</p>
+              <p className="text-xs text-center text-gray-600">
+                Procesando parámetros y generando resultados
+              </p>
             </div>
           )}
 
@@ -312,5 +435,5 @@ export default function SimulatorForm({ onSimular, isLoading = false }) {
         </div>
       </form>
     </div>
-  )
+  );
 }
